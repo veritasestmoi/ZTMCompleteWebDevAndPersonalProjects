@@ -1,0 +1,16 @@
+/* cascading style sheet ->take last input */
+
+/* Selector{
+    Property: value;
+} */
+
+
+h2{
+    color: red;
+    text-align: center;
+    border: 5px dashed purple;
+
+p{
+    color: pink;
+}
+

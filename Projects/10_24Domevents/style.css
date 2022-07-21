@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+  padding:0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom, rgb(253, 125, 74, 0%) , rgb(117, 117, 209, 100%));
+}
+
+.wrapper{
+  margin: 120px auto;
+  max-width: 400px;
+  width: 100%;
+  background-color: pink;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.wrapper header{
+  font-size: 35px;
+  font-weight: 600;
+  font-family:'Lobster', Times, serif;
+  text-align: center;
+}
+
+.wrapper .input{
+  display: flex;
+  height: 45px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+input{
+  width: 85%;
+  border: none;
+  height: 100%;
+  border: 1px solid;
+  font-size: 17px;
+  border-radius: 3px;
+  padding-left: 15px;
+}
+
+.input button{
+  width: 60px;
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: rgb(47, 191, 191);
+  color: #fff;
+  font-size: 22px;
+  border-radius: 3px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.wrapper .list{
+
+}
+
+.list li{
+  list-style: none;
+  height: 45px;
+  line-height: 45px;
+  position: relative;
+  background: rgb(238, 235, 235);
+  border-radius: 3px;
+  margin-bottom: 8px;
+  padding: 0 15px;
+  cursor: default;
+}
+
+.list li span{
+  position: absolute;
+  right: 0px;
+  color:rgb(69, 184, 184);
+  width: 55px;
+  font-size: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.wrapper .footer{
+  display:flex;
+  width: 100%;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer button{
+  border: none;
+  outline: none;
+  background-color: rgb(69, 184, 184);
+  color: #fff;
+  font-size: 26px;
+  border-radius: 3px;
+  margin-left: 5px;
+  cursor: pointer;
+  padding: 6px 10px;
+}
+
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+
+.done {
+  text-decoration: line-through;
+}

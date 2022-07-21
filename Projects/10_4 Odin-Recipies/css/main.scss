@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+:root{
+    --color-1: #E07A5F;
+    --color-2: #E2C044;
+    --color-3: #DBD9E8;
+    --color-4: #034363;
+    --color-5: #087E8B;
+    --color-6: pink;
+}
+
+/*-----------All-------------------------*/
+.center{
+    text-align: center;
+}
+
+
+/*--X--------All-----------X-------------*/
+
+
+/* -----------------Nav--------------------------------- */
+
+.navbar{
+   background-color: pink;
+   padding: 1em;
+
+   a{
+       text-decoration: none;
+       color: white;
+       font-size: 1.5em;
+       font-family: 'Pattaya', sans-serif;
+       text-shadow: 2px 2px var(--color-4)
+   }
+   
+
+   .container{
+    display: flex;
+    place-content: space-between;
+
+        img{
+            height: 30px;
+        }
+        .mobile-menu{
+            cursor:pointer;
+            padding-right: 2em;
+        }
+
+        nav{
+            display:none;
+        }
+   }
+
+hide{
+    display:none;
+}
+}
+/* ------X----------Nav-----------------X-------------- */
+
+/*-------------------Hero-----------------------*/
+
+    .title{
+        font-family:'Pattaya', sans-serif;
+        margin-top: 1em;
+    }
+
+    .ingre{
+        margin-top: 3em;
+    }
+    
+
+
+/*-------------------Carousel-----------------------*/
+
+/*---------X---------Carousel---------X------------*/
+
+/*---------X---------Hero---------X------------*/
+
+/*-------------------Footer-----------------------*/
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    box-sizing: border-box;
+
+    div{
+        background-color: var(--color-6);
+        text-align: center;
+        padding: 4px;
+    }
+}
+
+
+/*---------X---------Footer---------X------------*/

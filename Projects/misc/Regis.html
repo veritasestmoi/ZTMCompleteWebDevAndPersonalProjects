@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head><title>Register</title>
+    <style>
+        .img-container {
+            text-align: center;
+        }
+    </style>
+</head>
+
+    <body style="background-color: rgb(161, 185, 218)">
+        <p align=right>
+            <a href="index.html" >Home </a>
+        </p>
+        
+        <div class="img-container">
+        <h1>Register here!</h1>
+        <h2>Start your journey here</h2>
+        </div>
+        <form method="GET">
+            
+            <b>First name:</b><input type="type" name="firstname"><br><br>
+            
+            <b>Last name:</b><input type="text" name="lastname"><br><br>
+            
+            <b>Gender:</b><br>
+            <input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender" value="female">Female<br>
+            <input type="radio" name="gender" value="others">Others<br><br>
+            <!--&emsp;tab &nbsp;space-->
+
+            <b>Email:</b><input type="email" name="email" required><br><br>
+
+            <b>Password:</b><input type="password" name="password" required min="7"><br><br>
+
+            <b>Prefered Game Category:</b><br>
+            <input type="checkbox" name="Action games">Action games<br>
+            <input type="checkbox" name="Action-adventure games">Action-adventure games<br>
+            <input type="checkbox" name="Adventure games">Adventure games<br>
+            <input type="checkbox" name="Role-playing games">Role-playing games<br>
+            &emsp;&nbsp;Others: <input type="type" name="Other Categories"><br><br>
+            
+            <b>Device: </b><br>
+            <select name="Device">
+                <option value="PC" > PC</option>
+                <option value="Xbox" > Xbox </option> 
+                <option value="Ps5" > Ps5 </option>
+                <option value="Nintendo" > Nintendo </option><br><br>
+            </select><br><br>
+
+            <input type="submit" value="Register!">
+            <input type="reset" >
+
+            
+        </form>
+
+
+
+    </body>
+
+</html>

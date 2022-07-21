@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"path": "..\\8_24_2021Animalcardgrid"
+		},
+		{
+			"path": "..\\9_5_2021 CSS Grid responsive page"
+		},
+		{
+			"path": "..\\9_5_2021 Javascript"
+		},
+		{
+			"path": "..\\9_11 Project"
+		},
+		{
+			"path": "..\\9_15 Website"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\10_4 Recreating Facebook"
+		},
+		{
+			"path": "..\\10_11 Shopping List"
+		},
+		{
+			"path": "..\\10_24Domevents"
+		},
+		{
+			"path": "..\\11_03Backgroundgenerator"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "11_03Backgroundgenerator"
+	}
+}

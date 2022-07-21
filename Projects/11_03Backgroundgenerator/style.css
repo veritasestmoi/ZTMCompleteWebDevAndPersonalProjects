@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  letter-spacing: .5px;
+  background: -webkit-gradient(linear, left top, right top, from(#e66465), to(#f6b73c));
+  background: linear-gradient(to right, #e66465, #f6b73c);
+  padding: 7em;
+}
+
+body h1 {
+  font: 600 3.5em 'Raleway';
+  color: #3e2e11;
+  font-family: lobster;
+  width: 100%;
+  padding-bottom: .7em;
+}
+
+body input {
+  margin: .5em;
+}
+
+body h2 {
+  padding-top: .7em;
+}
+
+body h3 {
+  font: 900 1em 'Raleway';
+  text-align: center;
+  letter-spacing: .01em;
+  padding: 1em;
+}
+/*# sourceMappingURL=style.css.map */
